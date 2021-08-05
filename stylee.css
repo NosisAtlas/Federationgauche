@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none;
+  overflow-x: hidden !important;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fff;
+  color: #333;
+  width: 100vw;
+  height: 100%;
+}
+.nav-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+a {
+  color: #fff;
+}
+
+.nav-content nav {
+  background: #333;
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 50px);
+  top: 80px;
+  left: -100%;
+  transition: 0.5s;
+}
+
+.nav-content nav.active {
+  left: 0;
+}
+.nav-content .logo {
+  color: #222;
+  height: 100px;
+  width: 70%;
+  line-height: 50px;
+  font-size: 24px;
+  float: left;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-content nav ul {
+  display: block;
+  text-align: center;
+}
+
+.nav-content nav ul li {
+  margin: 20px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-content nav ul li a {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  display: block;
+  font-size: 24px;
+  color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav-content nav ul li a:hover {
+  color: #333;
+  background: #f2cf3d;
+}
+
+.menu-toggle {
+  color: #222;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header .back-img {
+  margin-top: 50px;
+  background: url(imgs/image1.jpg) no-repeat center;
+  background-size: cover;
+  height: calc(80vh - 80px);
+  position: relative;
+  z-index: -1;
+}
+
+.header .back-text {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  color: #fff;
+}
+
+.header .back-text h1 {
+  font-size: 55px;
+}
+
+.header .back-img h2 {
+  font-size: 35px;
+}
+
+.header .back-text h2 a {
+  color: #f2cf3d;
+  cursor: pointer;
+}
+
+/* This is the divs by bloc  */
+
+.three-divs .divone,
+.three-divs .divtwo,
+.three-divs .divthree {
+  width: 100%;
+  height: 300px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.three-divs .divone {
+  background: #f2cf3d;
+  border-bottom: 4px solid #333;
+}
+
+.three-divs .divtwo {
+  background: #fff;
+  border-bottom: 4px solid #f2cf3d;
+}
+
+.three-divs .divthree {
+  background: #333;
+}
+
+.three-divs .divone h2,
+.three-divs .divtwo h2,
+.three-divs .divthree h2 {
+  margin: 60px auto;
+  margin-bottom: 20px;
+}
+
+.three-divs .divthree h2 {
+  color: #fff;
+}
+
+.three-divs .divone a,
+.three-divs .divtwo a,
+.three-divs .divthree a {
+  font-size: 25px;
+  text-transform: uppercase;
+  transition: 0.3 ease-in;
+}
+
+.three-divs .divone a:hover {
+  padding: 10px;
+  color: #f2cf3d;
+  background-color: #333;
+}
+.three-divs .divtwo a:hover,
+.three-divs .divthree a:hover {
+  padding: 10px;
+  color: #333;
+  background-color: #f2cf3d;
+}
+
+.three-divs .divone a:active,
+.three-divs .divtwo a:active,
+.three-divs .divthree a:active {
+  padding-left: 15px;
+}
+
+.three-divs .divone a {
+  color: #fff;
+}
+
+.three-divs .divtwo a {
+  color: #333;
+}
+
+.three-divs .divthree a {
+  color: #f2cf3d;
+}
+
+/* This is Middiv section */
+.middiv {
+  margin-top: 4px;
+  /* background: url(imgs/image5.jpg) no-repeat center; */
+  background: #f2cf3d;
+  background-size: cover;
+  text-align: center;
+  height: calc(100vh - 80px);
+  position: relative;
+  z-index: -1;
+}
+
+.middiv .mid-text {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  padding: 0 20px;
+  color: #333;
+}
+
+.middiv .mid-text h1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.middiv .mid-text h3 {
+  font-size: 20px;
+  font-weight: light;
+  line-height: 40px;
+  width: 90%;
+}
+
+/* This is Missiondiv section */
+
+.missiondiv {
+  background: #222;
+  height: 100%;
+  /* position: relative; */
+  overflow: hidden;
+}
+
+.missiondiv .missiondiv-text {
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.missiondiv .missiondiv-text h1 {
+  width: 100%;
+  font-size: 50px;
+}
+
+.missiondiv .missiondiv-text h2 {
+  width: 90%;
+  margin-top: 20px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #565656;
+  overflow: hidden;
+}
+
+.missiondiv .missiondiv-img-text {
+  background: #fff;
+  width: 100%;
+  /* margin-bottom: 20px; */
+}
+
+.missiondiv .missiondiv-img-text .missiond-img img {
+  width: 100%;
+}
+
+.missiondiv .missiondiv-img-text .missd-text {
+  color: #333;
+  padding: 30px 50px;
+}
+
+.missiondiv .missiondiv-img-text .missd-text h1 {
+  font-size: 45px;
+}
+
+.missiondiv .missiondiv-img-text .missd-text h3 {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #565656;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.missiondiv .missiondiv-img-text .missd-text a {
+  color: #333;
+  background: #f2cf3d;
+  padding: 15px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+/* FOOTER CSS */
+
+/* FOOTER */
+.footer .footrow {
+  height: 100vh;
+  background-color: #222;
+}
+
+.footer .footrow {
+  text-align: center;
+}
+
+.footer .footrow .footer-col .logopng img {
+  width: 40%;
+}
+
+.footer .footrow .footer-col:first-child {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+
+.footer .footrow .footer-col {
+  padding: 10px 0;
+  color: #f2cf3d;
+}
+
+.footer .footrow .footer-col h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.footer .footrow .footer-col ul li {
+  padding: 10px;
+  width: 100%;
+  font-size: 22px;
+  /* background: #222; */
+} /* END FOOTER */
+
+/* MEDIA QUERIES */
+
+@media (min-width: 991px) {
+  .nav-content {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    margin: 20px 0;
+    margin-bottom: -20px;
+  }
+  .nav-content nav {
+    left: 400px;
+    top: 0px;
+    background: transparent;
+  }
+
+  /* .nav-content .logo {
+  } */
+
+  .nav-content nav ul {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  .nav-content nav ul li a {
+    color: #222;
+    overflow: hidden;
+    border: none;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+  .header .back-text {
+    top: 200px;
+    left: 150px;
+  }
+
+  /* This is the divs by bloc  */
+  .three-divs {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .three-divs .divone,
+  .three-divs .divtwo,
+  .three-divs .divthree {
+    width: 33.33%;
+    border: none;
+    padding: 10px 20px;
+  }
+
+  /* This is Middiv section */
+  /* .middiv { */
+  /* margin-top: 0; */
+  /* } */
+
+  .middiv {
+    height: calc(80vh - 80px);
+    /* padding-left: 500px; */
+  }
+
+  .middiv .mid-text {
+    top: 200px;
+    left: 50px;
+  }
+
+  .middiv .mid-text h1 {
+    width: 100%;
+    /* padding-left: 100px; */
+  }
+
+  .middiv .mid-text h3 {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* This is Missiondiv section */
+
+  .missiondiv .missiondiv-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    width: 80%;
+  }
+
+  .missiondiv .missiondiv-text h1 {
+    /* width: 40%; */
+    padding-left: 150px;
+  }
+
+  .missiondiv .missiondiv-text h2 {
+    font-size: 25px;
+    /* width: 60%; */
+    /* margin-top: -10px; */
+    padding-left: 100px;
+    margin-right: -50px;
+  }
+
+  /* This is Missiondiv section 2 */
+
+  .missiondiv .missiondiv-img-text {
+    display: flex;
+    margin-bottom: -5px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* FOOTER CSS */
+
+  /* FOOTER */
+
+  .footer .footrow {
+    height: 50vh;
+    background: #f2cf3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .footer .footrow .footer-col .logopng img {
+    margin-right: -100px;
+  }
+
+  .footer .footrow .footer-col,
+  .footer .footrow .footer-col a {
+    color: #222;
+    transition: 0.3s ease;
+  }
+
+  .footer .footrow .footer-col .logofoo {
+    width: 80%;
+  }
+
+  .footer .footrow .footer-col a:hover {
+    padding-left: 15px;
+  }
+}
