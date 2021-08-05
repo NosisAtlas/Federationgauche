@@ -94,7 +94,7 @@ a {
 
 .header .back-text {
   position: absolute;
-  top: 100px;
+  top: 140px;
   left: 30px;
   color: #fff;
 }
@@ -140,7 +140,7 @@ a {
 .three-divs .divone h2,
 .three-divs .divtwo h2,
 .three-divs .divthree h2 {
-  margin: 60px auto;
+  margin: 50px auto;
   margin-bottom: 20px;
 }
 
@@ -374,7 +374,13 @@ a {
   .three-divs .divthree {
     width: 33.33%;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
+  }
+
+  .three-divs .divone h2,
+  .three-divs .divtwo h2,
+  .three-divs .divthree h2 {
+    margin: 30px auto;
   }
 
   /* This is Middiv section */
@@ -388,7 +394,7 @@ a {
   }
 
   .middiv .mid-text {
-    top: 200px;
+    top: 150px;
     left: 50px;
   }
 
