@@ -95,12 +95,22 @@ a {
 .header .back-text {
   position: absolute;
   top: 140px;
-  left: 30px;
+  left: 0px;
   color: #fff;
+  padding: 0 10px;
 }
 
 .header .back-text h1 {
   font-size: 50px;
+}
+
+.header .back-text span,
+.header .back-text span {
+  background: #262626b8;
+  color: #fff;
+  padding: 0 20px;
+  border-radius: 8px;
+  display: inline-block; /*optional */
 }
 
 .header .back-img h2 {
