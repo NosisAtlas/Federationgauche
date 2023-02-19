@@ -1,105 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="benevoles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="benevoles.css" />
     <title>Benevoles</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="nav-content">
-        <div class="logo">Candidat Omar M.BENDJELLOUN</div>
-        <nav>
-            <ul>
-                <li><a class="active" href="index.html">Accueil</a></li>
-                <li><a href="afg.html">AFG</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="programme.html">Programme</a></li>
-                <li><a href="#">Témoignages</a></li>
-            </ul>
-        </nav>
-        <div class="menu-toggle">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </div>
+      <div class="logo">Candidat Omar M.BENDJELLOUN</div>
+      <nav>
+        <ul>
+          <li><a class="active" href="index.html">Accueil</a></li>
+          <li><a href="afg.html">AFG</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="programme.html">Programme</a></li>
+          <!-- <li><a href="#">Témoignages</a></li> -->
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
     </div>
 
     <div class="benevole-container">
-        <h1>Nos bénévoles de la Fédération de Gauche</h1>
-        <div class="img-benevole">
-            <img src="./imgs/benevoles.jpeg" alt="">
-        </div>
-        <!-- <a href="#">Rejoignez Nous</a> -->
+      <h1>Nos bénévoles de la Fédération de Gauche</h1>
+      <div class="img-benevole">
+        <img src="./imgs/benevoles.jpeg" alt="" />
+      </div>
+      <!-- <a href="#">Rejoignez Nous</a> -->
 
-        <!-- THIS IS THE FORMULAR PART -->
+      <!-- THIS IS THE FORMULAR PART -->
 
-        <div class="content-form">
-            <form action="send.php" method="post">
-                <div class="form" id="form">
-                    <div class="title">Bienvenue</div>
-                    <div class="subtitle">
-                        Rejoignez nous dans l'AFG !</div>
-                    <div class="input-container ic1">
-                      <input id="firstname" class="input" type="text" placeholder=" " name="name" />
-                      <div class="cut"></div>
-                      <label for="firstname" class="placeholder">Nom et prénom</label>
-                    </div>
-                    <div class="input-container ic2">
-                      <input id="lastname" class="input" type="text" placeholder=" " name="adress" />
-                      <div class="cut"></div>
-                      <label for="lastname" class="placeholder">Adresse</label>
-                    </div>
-                    <div class="input-container ic2">
-                      <input id="email" class="input" type="text" placeholder=" " name="telephone" />
-                      <div class="cut cut-short"></div>
-                      <label for="email" class="placeholder">Telephone</>
-                    </div>
-                    <button type="text" class="submit">envoyer</button>
-                  </div>
-            </form>
-        </div>
-
+      <div class="content-form">
+        <form action="send.php" method="post">
+          <div class="form" id="form">
+            <div class="title">Bienvenue</div>
+            <div class="subtitle">Rejoignez nous dans l'AFG !</div>
+            <div class="input-container ic1">
+              <input
+                id="firstname"
+                class="input"
+                type="text"
+                placeholder=" "
+                name="name"
+              />
+              <div class="cut"></div>
+              <label for="firstname" class="placeholder">Nom et prénom</label>
+            </div>
+            <div class="input-container ic2">
+              <input
+                id="lastname"
+                class="input"
+                type="text"
+                placeholder=" "
+                name="adress"
+              />
+              <div class="cut"></div>
+              <label for="lastname" class="placeholder">Adresse</label>
+            </div>
+            <div class="input-container ic2">
+              <input
+                id="email"
+                class="input"
+                type="text"
+                placeholder=" "
+                name="telephone"
+              />
+              <div class="cut cut-short"></div>
+              <label for="email" class="placeholder">Telephone</label>
+            </div>
+            <button type="text" class="submit">envoyer</button>
+          </div>
+        </form>
+      </div>
     </div>
 
     <footer class="footer">
-        <div class="footrow">
-            <!-- <div class="footer-col">
+      <div class="footrow">
+        <!-- <div class="footer-col">
                 <div class="logofoo">Alliance de la Fédération de Gauche</div>
             </div> -->
-            <div class="footer-col">
-                <div class="logopng">
-                    <img src="imgs/logo.png" alt="">
-                </div>
-            </div>
-            <div class="footer-col">
-                <h4>LIENS UTILES</h4>
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="afg.html">AFG</a></li>
-                    <li><a href="media.html">Media</a></li>
-                    <li><a href="#">Témoignages</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>CONTACTEZ NOUS!</h4>
-                <ul>
-                    <li><a href="#">00212537725097</a></li>
-                    <li><a href="#">omar.bendjelloun@gmail.com</a></li>
-                    <li><a href="#">Avenue Mohammed V, 11 rue Alexandrie, 10 000 Rabat</a></li>
-                </ul>
-            </div>
-            
+        <div class="footer-col">
+          <div class="logopng">
+            <img src="imgs/logo.png" alt="" />
+          </div>
         </div>
-</footer>
+        <div class="footer-col">
+          <h4>LIENS UTILES</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="afg.html">AFG</a></li>
+            <li><a href="media.html">Media</a></li>
+            <!-- <li><a href="#">Témoignages</a></li> -->
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>CONTACTEZ NOUS!</h4>
+          <ul>
+            <li><a href="#">00212537725097</a></li>
+            <li><a href="#">omar.bendjelloun@gmail.com</a></li>
+            <li>
+              <a href="#">Avenue Mohammed V, 11 rue Alexandrie, 10 000 Rabat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script>
-    $(document).ready(function(){
-        $('.menu-toggle').click(function(){
-            $('nav').toggleClass('active')
-        })
-    })
-</script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+          $("nav").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
 </html>
